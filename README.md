@@ -172,10 +172,10 @@ const socket = io("http://localhost:5000", {
 ### Rooms
 | Event | Direction | Description |
 |---|---|---|
-| `room:join` | Client → Server | الانضمام لغرفة |
-| `room:leave` | Client → Server | مغادرة غرفة |
-| `room:userJoined` | Server → Room | إشعار انضمام يوزر |
-| `room:userLeft` | Server → Room | إشعار مغادرة يوزر |
+| `room:join` | Client → Server | Join room |
+| `room:leave` | Client → Server | Leave room |
+| `room:userJoined` | Server → Room | User joined notification |
+| `room:userLeft` | Server → Room | User left notification |
 
 ### Typing & Status
 | Event | Direction | Description |
